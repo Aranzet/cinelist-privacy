@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CineList — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+    .logo-icon {
+      width: 56px; height: 56px;
+      background: #1a3a5c;
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 28px;
+    }
+    .logo-text { font-size: 24px; font-weight: 700; color: #fff; }
+    .logo-sub { font-size: 13px; color: #888; margin-top: 2px; }
+    h1 {
+      font-size: 32px; font-weight: 700;
+      color: #fff; margin-bottom: 8px;
+    }
+    .updated {
+      font-size: 14px; color: #666;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 18px; font-weight: 600;
+      color: #4a9ee8;
+      margin: 36px 0 12px;
+    }
+    p { margin-bottom: 14px; color: #ccc; }
+    ul { padding-left: 20px; margin-bottom: 14px; }
+    li { margin-bottom: 8px; color: #ccc; }
+    a { color: #4a9ee8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .card {
+      background: #1c1c1e;
+      border-radius: 16px;
+      padding: 20px 24px;
+      margin-bottom: 14px;
+    }
+    .card-title {
+      font-size: 15px; font-weight: 600;
+      color: #fff; margin-bottom: 6px;
+    }
+    .card-desc { font-size: 14px; color: #888; margin: 0; }
+    .tag {
+      display: inline-block;
+      background: #1a3a5c;
+      color: #4a9ee8;
+      font-size: 12px; font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-right: 6px; margin-bottom: 6px;
+    }
+    .highlight {
+      background: #1c2a1c;
+      border-left: 3px solid #2e7d4f;
+      border-radius: 0 12px 12px 0;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+    }
+    .highlight p { color: #a8d5a8; margin: 0; }
+    .contact-block {
+      background: #1c1c1e;
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .contact-block p { color: #888; margin-bottom: 8px; }
+    .contact-block a { font-size: 16px; font-weight: 500; }
+    hr {
+      border: none;
+      border-top: 1px solid #2a2a2a;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo">
+      <div class="logo-icon">🎬</div>
+      <div>
+        <div class="logo-text">CineList</div>
+        <div class="logo-sub">Movie & Series Tracker</div>
+      </div>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 2026</p>
+
+    <div class="highlight">
+      <p>CineList does not sell your data, show ads, or share your personal information with third parties for marketing purposes.</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>CineList ("we", "our", or "the app") is a mobile application for tracking movies and TV series. This Privacy Policy explains what information we collect, how we use it, and what rights you have.</p>
+    <p>By using CineList, you agree to this Privacy Policy.</p>
+
+    <h2>2. Information We Collect</h2>
+
+    <div class="card">
+      <div class="card-title">Account Information</div>
+      <p class="card-desc">When you sign in with Google or Apple, we receive your display name and email address. Anonymous users have no personal information collected.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Watchlist & Progress Data</div>
+      <p class="card-desc">Movies and series you add to your list, watch statuses, episode progress, your ratings and reviews — stored locally on your device (Isar database) and optionally synced to our cloud (Firebase Firestore) for cross-device access.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Community Content</div>
+      <p class="card-desc">AI-generated recaps you save, reviews you write, ideas and bug reports you submit — stored in Firebase Firestore with your user ID and display name.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">App Settings</div>
+      <p class="card-desc">Theme, language, notification preferences — stored locally on your device via SharedPreferences.</p>
+    </div>
+
+    <h2>3. Third-Party Services</h2>
+    <p>CineList uses the following third-party services:</p>
+
+    <div class="card">
+      <div class="card-title">Firebase (Google)</div>
+      <p class="card-desc">Authentication and cloud data storage. Your watchlist and community content are stored in Firebase Firestore. We use anonymous authentication as default — no account required to use the app.</p>
+      <br/>
+      <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">TMDB (The Movie Database)</div>
+      <p class="card-desc">We use TMDB API to fetch movie and series information, posters, cast, and episode data. Search queries are sent to TMDB servers. No personal data is shared.</p>
+      <br/>
+      <a href="https://www.themoviedb.org/privacy-policy" target="_blank">TMDB Privacy Policy →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Anthropic Claude API</div>
+      <p class="card-desc">When you request an AI recap, the title of the movie or series is sent to Anthropic's API to generate a summary. No personal data is included in these requests.</p>
+      <br/>
+      <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy →</a>
+    </div>
+
+    <div class="card">
+      <div class="card-title">YouTube Data API</div>
+      <p class="card-desc">We use YouTube API to search for video recaps related to movies and series you view. Search queries (movie/series titles) are sent to YouTube. No personal data is shared.</p>
+      <br/>
+      <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy →</a>
+    </div>
+
+    <h2>4. How We Use Your Information</h2>
+    <ul>
+      <li>To sync your watchlist and progress across devices</li>
+      <li>To display community recaps and reviews from other users</li>
+      <li>To send local push notifications about new episodes (only if enabled)</li>
+      <li>To improve the app based on your feedback and bug reports</li>
+    </ul>
+
+    <p>We do <strong>not</strong> use your data for:</p>
+    <div>
+      <span class="tag">❌ Advertising</span>
+      <span class="tag">❌ Selling to third parties</span>
+      <span class="tag">❌ Profiling</span>
+      <span class="tag">❌ Analytics tracking</span>
+    </div>
+
+    <h2>5. Data Storage & Security</h2>
+    <p>Your data is stored in two places:</p>
+    <ul>
+      <li><strong>On your device</strong> — watchlist, episode progress, settings (Isar local database)</li>
+      <li><strong>Firebase Firestore</strong> — cloud sync of your watchlist, community content you publish</li>
+    </ul>
+    <p>Firebase Firestore is secured with server-side security rules that ensure each user can only read and write their own data. Community content (recaps, reviews, ideas) is readable by all authenticated users.</p>
+
+    <h2>6. Data Retention & Deletion</h2>
+    <p>You can delete your account and all associated data at any time:</p>
+    <ul>
+      <li>Go to <strong>Profile → Account → Delete Account</strong></li>
+      <li>This permanently removes your watchlist from the cloud, your published recaps, reviews, and any other data linked to your account</li>
+      <li>Local data on your device is deleted when you uninstall the app</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>CineList is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal data, please contact us.</p>
+
+    <h2>8. Push Notifications</h2>
+    <p>CineList may send local notifications about new episodes in your watchlist. These notifications are generated on your device and do not involve sending your data to any server. You can disable notifications at any time in <strong>Profile → Notifications</strong> or in your device Settings.</p>
+
+    <h2>9. In-App Purchases</h2>
+    <p>CineList offers optional in-app purchases processed through Apple App Store. We do not collect or store your payment information. All transactions are handled by Apple.</p>
+    <p>
+      <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy →</a>
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. The updated version will be indicated by the "Last updated" date at the top of this page. We encourage you to review this policy periodically.</p>
+
+    <hr/>
+
+    <div class="contact-block">
+      <p>Questions about your privacy?</p>
+      <a href="mailto:privacy@cinelist.app">privacy@cinelist.app</a>
+    </div>
+
+  </div>
+</body>
+</html>
+EOF
